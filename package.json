@@ -1,0 +1,21 @@
+{
+  "name": "vitrawebtestingautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "Hernan Carrasco",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^8.6.8"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.6.8",
+    "@wdio/local-runner": "^8.6.8",
+    "@wdio/mocha-framework": "^8.6.8",
+    "@wdio/spec-reporter": "^8.6.8"
+  }
+}
